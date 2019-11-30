@@ -122,13 +122,13 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - **Problem**
  	It's day 10! Congrats on completing one-third of the challenge.The task for the day is to reverse a string using stack data structure.
 
-- **Format**
+	The algorithm is as follows:
 	- Get the string
 	- Print the reversed string using stacks
 
 - **Example**
       ```
-      Enter string: abcdef
+      Enter string: abcdef<br>
 	  The reversed string is: fedcba
       ```
 - **Resources**
@@ -139,10 +139,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 10 - Queued up**
 <img src="https://media.giphy.com/media/6kyrz1j5uhJdK/giphy.gif" width=500 height=250>
+<br>
 - **Problem**
  	A medical clinic assigns a token number to every patient who visits. The token number starts from 1 and it is given based on the order of arrival, to the n patients who arrive. But, the receptionist accepts bribe and lets a person k in first. The task is to print the token number and the patient's name in the order in which they see the doctor.
 
-- **Format**
+	The algorithm is as follows:
 	- Get n
 	- For every person that arrives, store their name and token number.
 	- Get k
