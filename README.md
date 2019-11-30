@@ -135,10 +135,10 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Stacks and queues](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html)
     - [Stack implementation](https://www.geeksforgeeks.org/stack-data-structure/)
 
-!<img src="https://media.giphy.com/media/WtCHRSPCuqS8E/giphy.gif" width=800>
+!<img src="https://media.giphy.com/media/WtCHRSPCuqS8E/giphy.gif" width=500 height=250>
 
 ### **December 10 - Queued up**
-<img src="https://media.giphy.com/media/6kyrz1j5uhJdK/giphy.gif" width=800>
+<img src="https://media.giphy.com/media/6kyrz1j5uhJdK/giphy.gif" width=500 height=250>
 - **Problem**
  	A medical clinic assigns a token number to every patient who visits. The token number starts from 1 and it is given based on the order of arrival, to the n patients who arrive. But, the receptionist accepts bribe and lets a person k in first. The task is to print the token number and the patient's name in the order in which they see the doctor.
 
