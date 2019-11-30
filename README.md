@@ -17,6 +17,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 1 - Sevenish Number**](#december-1---sevenish-number)
   - [**December 2 - Is this a valid credit card number?**](#december-2---is-this-a-valid-credit-card-number)
   - [**December 3 - The Decimation**](#december-3---the-decimation)
+  - [**December 9 - Queued up**](#december-9---stack-up)
+  - [**December 10 - Queued up**](#december-10---queued-up)
   - [**FAQ**](#faq)
 
 
@@ -110,6 +112,66 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Arrays in Python](https://www.w3schools.com/python/python_lists.asp)
 
 
+### **December 9 - Stack up**
+
+- **Understanding Stacks:**
+	- A stack is a container of objects that are inserted and removed according to the *last-in first-out* (LIFO) principle. 
+	- A stack is a limited access data structure - elements can be added and removed from the stack only at the top. push adds an item to the top of the stack, pop removes the item from the top. 
+	- A helpful analogy is to think of a stack of books; you can remove only the top book, also you can add a new book on the top.
+
+- **Problem**
+ 	It's day 10! Congrats on completing one-third of the challenge.The task for the day is to reverse a string using stack data structure.
+
+- **Format**
+	- Get the string
+	- Print the reversed string using stacks
+
+- **Example**
+
+```
+
+	Enter string: abcdef
+	The reversed string is: fedcba
+```
+- **Resources**
+    - [Stacks and queues](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html)
+    - [Stack implementation](https://www.geeksforgeeks.org/stack-data-structure/)
+
+![Couldn't display image](https://media.giphy.com/media/WtCHRSPCuqS8E/giphy.gif | width=800)
+- [**December 10 - Queued up**](#december-10---queued-up)
+
+### **December 10 - Queued up**
+![Couldn't display image](https://media.giphy.com/media/6kyrz1j5uhJdK/giphy.gif | width=800)
+- **Problem**
+ 	A medical clinic assigns a token number to every patient who visits. The token number starts from 1 and it is given based on the order of arrival, to the n patients who arrive. But, the receptionist accepts bribe and lets a person k in first. The task is to print the token number and the patient's name in the order in which they see the doctor.
+
+- **Format**
+	- Get n
+	- For every person that arrives, store their name and token number.
+	- Get k
+	- Print kth person's token number and name followed by the rest.
+
+- **Example**
+```
+
+	Enter n: 5
+	Enter token no - name
+	1 a
+	2 b
+	3 c
+	4 d
+	5 e
+	Enter k: c
+	The order is:
+	3 c
+	1 a
+	2 b
+	4 d
+	5 e
+```
+- **Resources**
+    - [Understanding queue data structure](https://www.geeksforgeeks.org/queue-data-structure/)
+    - [Stacks and queues](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html)
 
 ## Maintainers
 - [K-Kraken](https://github.com/K-Kraken)
@@ -165,3 +227,4 @@ FAQ:
 ###### [[Back to Top]](#----)
 
 ![wave](http://cdn.thekrishna.in/img/common/border.png)
+
