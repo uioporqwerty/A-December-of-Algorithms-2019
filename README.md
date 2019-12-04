@@ -22,6 +22,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
   - [**December 6 - Fibonacci Prime number generation**](#december-6---fibonacci-prime-number-generation)
   - [**December 7 - Queued up**](#december-7---queued-up)
   - [**December 8 - Cheating Probability**](#december-8---cheating-probability)
+  - [**December 9 - One to One?**](#december-9---one-to-one)
+  - [**December 10 - Count The Cookies**](#december-10---count-the-cookies)
   - [**FAQ**](#faq)
 
 
@@ -220,13 +222,14 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Understanding queue data structure](https://www.geeksforgeeks.org/queue-data-structure/)
     - [Stacks and queues](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Stacks%20and%20Queues/Stacks%20and%20Queues.html)
 
+
 ### **December 8 - Cheating Probability**
   - **Problem**
-    Given an RxC Matrix with its elements representing the branch being pursued by a student in the exam hall. Caluclate the probability of each student copying if a person from the same branch sits:
-    -  in front = 0.3
-    -  behind = 0.2
-    -  sides = 0.2
-    -  diagonal = 0.1
+    - Given an RxC Matrix with its elements representing the branch being pursued by a student in the exam hall. Caluclate the probability of each student copying if a person from the same branch sits:
+    	-  In front = 0.3
+    	-  Behind = 0.2
+    	-  Sides = 0.2
+    	-  Diagonal = 0.1
   - **Example**
     - **Input**
        ``` 
@@ -244,7 +247,56 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [Arrays in Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
     - [Arrays in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
     - [Lists in Python](https://www.w3schools.com/python/python_lists.asp) 
+
+
+### **December 9 - One to One?**
+  - **Problem**
+    - In mathematics a one to one function is that which has a unique element in the range for every corresponding domain.
+    - Let there be a function `f`: `X->Y` such that  if a,b belong to `X` and if `f(a)=f(b)` then `a=b`. This proves the one to one property of a function. If there exists more than one "X's" for the same "Y's" then the function is not one to one.
+    - Your task is to write a program that accepts two sets of numbers and the relationship between them and evaluate if they are indeed a one-one function.
+  - **Example**
+      ```
+      Set 1: {1,2,3,4}
+      Set 2: {1,4,9,16}
+      Function: x^2
+      Result: It is one-one.
+      ```
+      ```
+      Set 1: {1,-1,2,-2,3,-3,4,-4}
+      Set 2: {1,4,9,16}
+      Function: x^2
+      Result: It is not one-one.
+      
+      ```
+   - **Optional**
+     - Prove that the function is onto and hence bijective.
+   - **Resources**
+     - [One-One functions](http://mymathangels.com/tag/one-one-onto-function/)
+     - [Bijective functions](https://www.tutorialspoint.com/injective-surjective-and-bijective-functions)
+
+
+### **December 10 - Count The Cookies**
+  - **Problem**
+    - Tipsie, a cookie store sells cookies in jars. Each jar has one cookie in them. The store gives a free cookie if the customer returns enough cookie jars.
+    - For example, if a customer Alex has `n=15` to spend on jars of cookie that cost `p=3` each. He can turn in `c=2` cookie jars to receive another cookie.
+    - Initially, he buys 5 cookies and has 5 jars after eating them. He turns in 4 of them, leaving him with 1, for 2 more cookies.
+    - After eating those two, he has 3 cookie jars, turns in 2 leaving him with 1 cookie jar and his new cookie. 
+    - Once he eats that one, he has 2 cookie jars and turns them in for another cookie. After eating that one, he only has 1 cookie, and his shopping ends. Overall, he has eaten `5+2+1+1=9` cookies.
+    - The integers `n`, `p` and `c` represent money to spend, cost of a cookie, and the number of cookie jars he can turn in for a free cookie respectively.
+    - Implement a function `cookieCount(n, p, c)` to count the number of cookies Alex could buy.
    
+  - **Example**
+    ```bash
+    > cookieCount(10, 2, 5)
+      6
+    > cookieCount(12, 4, 4)
+      3
+    ```
+  - **Resources**
+    - [Div Mod in Python](https://www.geeksforgeeks.org/divmod-python-application/)
+    - [Div Mod in C & C++](https://www.cprogramming.com/tutorial/modulus.html)
+    - [Div Mod in Java](http://www.cs.ukzn.ac.za/~hughm/java/intro/week2/21.html)
+    
     
 ## Maintainers
 - [K-Kraken](https://github.com/K-Kraken)
@@ -253,7 +305,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 - [shrusri27](https://github.com/shrusri27)
 - [ShriRam0509](https://github.com/SHRIRAM0509)
 - [ajaykrishnan23](https://github.com/ajaykrishnan23)
-
+- [dhirajv2000](https://github.com/dhirajv2000)
+- [dhivya141](https://github.com/dhivya141)
 
 
 FAQ:
